@@ -19,7 +19,7 @@
 
         //popup
     L.marker([44.66958325842197, -63.614710897266605]).addTo(map)
-        .bindPopup('This is NSCC IT!')
+        .bindPopup('NSCC IT!')
         .openPopup();
 
         //API URL
