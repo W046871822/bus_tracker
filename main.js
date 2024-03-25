@@ -101,7 +101,7 @@
             };
 
             // Convert bus data to GeoJSON
-            busJson.foreach(eachBus => {
+            busJson.map(eachBus => {
                     let busId = eachBus.id;
                     let busLat = eachBus.vehicle.position.latitude;
                     let busLon = eachBus.vehicle.position.longitude;
